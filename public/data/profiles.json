@@ -1,0 +1,3362 @@
+[
+    {
+        "id": 1,
+        "nome": "Larissa Mendes",
+        "foto": "./images/foto1.jpg",
+        "cargo": "DevOps Engineer",
+        "resumo": "Profissional experiente em soluções modernas e tecnologia.",
+        "localizacao": "Rio de Janeiro/RJ",
+        "area": "Design",
+        "habilidadesTecnicas": [
+            "SQL",
+            "Figma",
+            "Docker",
+            "Node.js"
+        ],
+        "softSkills": [
+            "Resiliência",
+            "Adaptabilidade",
+            "Comunicação"
+        ],
+        "experiencias": [
+            {
+                "empresa": "Empresa A",
+                "cargo": "QA Tester",
+                "inicio": "2021-01",
+                "fim": "2023-12",
+                "descricao": "Responsável por desenvolver soluções e integrar sistemas."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Bacharelado em Ciência da Computação",
+                "instituicao": "FIAP",
+                "ano": 2017
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Plataforma X",
+                "link": "https://github.com/example",
+                "descricao": "Projeto desenvolvido para estudos e testes."
+            }
+        ],
+        "certificacoes": [
+            "AWS Certified Data Analytics"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Avançado"
+            }
+        ],
+        "areaInteresses": [
+            "Educação",
+            "IA Ética"
+        ]
+    },
+    {
+        "id": 2,
+        "nome": "Rafael Campos",
+        "foto": "./images/foto2.jpg",
+        "cargo": "Desenvolvedor Backend",
+        "resumo": "Profissional experiente em soluções modernas e tecnologia.",
+        "localizacao": "Rio de Janeiro/RJ",
+        "area": "Dados",
+        "habilidadesTecnicas": [
+            "Python",
+            "Kubernetes",
+            "Figma",
+            "JavaScript"
+        ],
+        "softSkills": [
+            "Adaptabilidade",
+            "Colaboração",
+            "Criatividade"
+        ],
+        "experiencias": [
+            {
+                "empresa": "Empresa C",
+                "cargo": "DevOps Engineer",
+                "inicio": "2021-01",
+                "fim": "2023-12",
+                "descricao": "Responsável por desenvolver soluções e integrar sistemas."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Bacharelado em Ciência da Computação",
+                "instituicao": "FIAP",
+                "ano": 2021
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Plataforma X",
+                "link": "https://github.com/example",
+                "descricao": "Projeto desenvolvido para estudos e testes."
+            }
+        ],
+        "certificacoes": [
+            "AWS Certified Data Analytics"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Avançado"
+            }
+        ],
+        "areaInteresses": [
+            "IA Ética",
+            "Blockchain"
+        ]
+    },
+    {
+        "id": 3,
+        "nome": "Otávio Moreira",
+        "foto": "./images/foto3.jpg",
+        "cargo": "QA Tester",
+        "resumo": "Profissional experiente em soluções modernas e tecnologia.",
+        "localizacao": "Curitiba/PR",
+        "area": "Design",
+        "habilidadesTecnicas": [
+            "AWS",
+            "JavaScript",
+            "React",
+            "Docker"
+        ],
+        "softSkills": [
+            "Empatia",
+            "Criatividade",
+            "Adaptabilidade"
+        ],
+        "experiencias": [
+            {
+                "empresa": "Empresa A",
+                "cargo": "Product Designer",
+                "inicio": "2021-01",
+                "fim": "2023-12",
+                "descricao": "Responsável por desenvolver soluções e integrar sistemas."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Bacharelado em Ciência da Computação",
+                "instituicao": "FIAP",
+                "ano": 2020
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Plataforma X",
+                "link": "https://github.com/example",
+                "descricao": "Projeto desenvolvido para estudos e testes."
+            }
+        ],
+        "certificacoes": [
+            "AWS Certified Data Analytics"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Avançado"
+            }
+        ],
+        "areaInteresses": [
+            "Sustentabilidade",
+            "Educação"
+        ]
+    },
+    {
+        "id": 4,
+        "nome": "Gustavo Ribeiro",
+        "foto": "./images/foto4.jpg",
+        "cargo": "Product Designer",
+        "resumo": "Profissional experiente em soluções modernas e tecnologia.",
+        "localizacao": "Porto Alegre/RS",
+        "area": "DevOps",
+        "habilidadesTecnicas": [
+            "Python",
+            "TypeScript",
+            "Kubernetes",
+            "MongoDB"
+        ],
+        "softSkills": [
+            "Liderança",
+            "Adaptabilidade",
+            "Comunicação"
+        ],
+        "experiencias": [
+            {
+                "empresa": "Empresa C",
+                "cargo": "QA Tester",
+                "inicio": "2021-01",
+                "fim": "2023-12",
+                "descricao": "Responsável por desenvolver soluções e integrar sistemas."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Bacharelado em Ciência da Computação",
+                "instituicao": "FIAP",
+                "ano": 2015
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Plataforma X",
+                "link": "https://github.com/example",
+                "descricao": "Projeto desenvolvido para estudos e testes."
+            }
+        ],
+        "certificacoes": [
+            "AWS Certified Data Analytics"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Avançado"
+            }
+        ],
+        "areaInteresses": [
+            "Open Source",
+            "Blockchain"
+        ]
+    },
+    {
+        "id": 5,
+        "nome": "Bruno Pereira",
+        "foto": "./images/foto5.jpg",
+        "cargo": "QA Tester",
+        "resumo": "Profissional experiente em soluções modernas e tecnologia.",
+        "localizacao": "Curitiba/PR",
+        "area": "DevOps",
+        "habilidadesTecnicas": [
+            "SQL",
+            "Python",
+            "Kubernetes",
+            "JavaScript"
+        ],
+        "softSkills": [
+            "Empatia",
+            "Adaptabilidade",
+            "Criatividade"
+        ],
+        "experiencias": [
+            {
+                "empresa": "Empresa C",
+                "cargo": "QA Tester",
+                "inicio": "2021-01",
+                "fim": "2023-12",
+                "descricao": "Responsável por desenvolver soluções e integrar sistemas."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Bacharelado em Ciência da Computação",
+                "instituicao": "FIAP",
+                "ano": 2018
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Plataforma X",
+                "link": "https://github.com/example",
+                "descricao": "Projeto desenvolvido para estudos e testes."
+            }
+        ],
+        "certificacoes": [
+            "AWS Certified Data Analytics"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Fluente"
+            }
+        ],
+        "areaInteresses": [
+            "Blockchain",
+            "Open Source"
+        ]
+    },
+    {
+        "id": 6,
+        "nome": "Gustavo Ribeiro",
+        "foto": "./images/foto6.jpg",
+        "cargo": "Analista de Sistemas",
+        "resumo": "Profissional experiente em soluções modernas e tecnologia.",
+        "localizacao": "São Paulo/SP",
+        "area": "Tecnologia",
+        "habilidadesTecnicas": [
+            "JavaScript",
+            "Node.js",
+            "Figma",
+            "Django"
+        ],
+        "softSkills": [
+            "Colaboração",
+            "Adaptabilidade",
+            "Empatia"
+        ],
+        "experiencias": [
+            {
+                "empresa": "Empresa A",
+                "cargo": "QA Tester",
+                "inicio": "2021-01",
+                "fim": "2023-12",
+                "descricao": "Responsável por desenvolver soluções e integrar sistemas."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Bacharelado em Ciência da Computação",
+                "instituicao": "FIAP",
+                "ano": 2022
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Plataforma X",
+                "link": "https://github.com/example",
+                "descricao": "Projeto desenvolvido para estudos e testes."
+            }
+        ],
+        "certificacoes": [
+            "AWS Certified Data Analytics"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Avançado"
+            }
+        ],
+        "areaInteresses": [
+            "Open Source",
+            "Blockchain"
+        ]
+    },
+    {
+        "id": 7,
+        "nome": "Juliana Prado",
+        "foto": "./images/foto7.jpg",
+        "cargo": "Desenvolvedor Backend",
+        "resumo": "Profissional experiente em soluções modernas e tecnologia.",
+        "localizacao": "Curitiba/PR",
+        "area": "Tecnologia",
+        "habilidadesTecnicas": [
+            "SQL",
+            "React",
+            "MongoDB",
+            "Python"
+        ],
+        "softSkills": [
+            "Colaboração",
+            "Empatia",
+            "Liderança"
+        ],
+        "experiencias": [
+            {
+                "empresa": "Empresa B",
+                "cargo": "Analista de Sistemas",
+                "inicio": "2021-01",
+                "fim": "2023-12",
+                "descricao": "Responsável por desenvolver soluções e integrar sistemas."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Bacharelado em Ciência da Computação",
+                "instituicao": "FIAP",
+                "ano": 2017
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Plataforma X",
+                "link": "https://github.com/example",
+                "descricao": "Projeto desenvolvido para estudos e testes."
+            }
+        ],
+        "certificacoes": [
+            "AWS Certified Data Analytics"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Intermediário"
+            }
+        ],
+        "areaInteresses": [
+            "IA Ética",
+            "Inovação"
+        ]
+    },
+    {
+        "id": 8,
+        "nome": "Larissa Mendes",
+        "foto": "./images/foto8.jpg",
+        "cargo": "QA Tester",
+        "resumo": "Profissional experiente em soluções modernas e tecnologia.",
+        "localizacao": "Rio de Janeiro/RJ",
+        "area": "Tecnologia",
+        "habilidadesTecnicas": [
+            "Kubernetes",
+            "Node.js",
+            "React",
+            "JavaScript"
+        ],
+        "softSkills": [
+            "Empatia",
+            "Comunicação",
+            "Liderança"
+        ],
+        "experiencias": [
+            {
+                "empresa": "Empresa D",
+                "cargo": "Desenvolvedor Backend",
+                "inicio": "2021-01",
+                "fim": "2023-12",
+                "descricao": "Responsável por desenvolver soluções e integrar sistemas."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Bacharelado em Ciência da Computação",
+                "instituicao": "FIAP",
+                "ano": 2021
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Plataforma X",
+                "link": "https://github.com/example",
+                "descricao": "Projeto desenvolvido para estudos e testes."
+            }
+        ],
+        "certificacoes": [
+            "AWS Certified Data Analytics"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Intermediário"
+            }
+        ],
+        "areaInteresses": [
+            "Games",
+            "Inovação"
+        ]
+    },
+    {
+        "id": 9,
+        "nome": "Patrícia Ramos",
+        "foto": "./images/foto9.jpg",
+        "cargo": "DevOps Engineer",
+        "resumo": "Profissional experiente em soluções modernas e tecnologia.",
+        "localizacao": "Curitiba/PR",
+        "area": "Tecnologia",
+        "habilidadesTecnicas": [
+            "Figma",
+            "MongoDB",
+            "Node.js",
+            "SQL"
+        ],
+        "softSkills": [
+            "Comunicação",
+            "Liderança",
+            "Empatia"
+        ],
+        "experiencias": [
+            {
+                "empresa": "Empresa D",
+                "cargo": "QA Tester",
+                "inicio": "2021-01",
+                "fim": "2023-12",
+                "descricao": "Responsável por desenvolver soluções e integrar sistemas."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Bacharelado em Ciência da Computação",
+                "instituicao": "FIAP",
+                "ano": 2019
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Plataforma X",
+                "link": "https://github.com/example",
+                "descricao": "Projeto desenvolvido para estudos e testes."
+            }
+        ],
+        "certificacoes": [
+            "AWS Certified Data Analytics"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Avançado"
+            }
+        ],
+        "areaInteresses": [
+            "Blockchain",
+            "Sustentabilidade"
+        ]
+    },
+    {
+        "id": 10,
+        "nome": "Tiago Gomes",
+        "foto": "./images/foto10.jpg",
+        "cargo": "QA Tester",
+        "resumo": "Profissional experiente em soluções modernas e tecnologia.",
+        "localizacao": "São Paulo/SP",
+        "area": "Dados",
+        "habilidadesTecnicas": [
+            "Python",
+            "React",
+            "Django",
+            "SQL"
+        ],
+        "softSkills": [
+            "Comunicação",
+            "Liderança",
+            "Empatia"
+        ],
+        "experiencias": [
+            {
+                "empresa": "Empresa A",
+                "cargo": "QA Tester",
+                "inicio": "2021-01",
+                "fim": "2023-12",
+                "descricao": "Responsável por desenvolver soluções e integrar sistemas."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Bacharelado em Ciência da Computação",
+                "instituicao": "FIAP",
+                "ano": 2020
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Plataforma X",
+                "link": "https://github.com/example",
+                "descricao": "Projeto desenvolvido para estudos e testes."
+            }
+        ],
+        "certificacoes": [
+            "AWS Certified Data Analytics"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Fluente"
+            }
+        ],
+        "areaInteresses": [
+            "Inovação",
+            "Open Source"
+        ]
+    },
+    {
+        "id": 11,
+        "nome": "Helena Souza",
+        "foto": "./images/foto1.jpg",
+        "cargo": "DevOps Engineer",
+        "resumo": "Profissional experiente em soluções modernas e tecnologia.",
+        "localizacao": "Belo Horizonte/MG",
+        "area": "Dados",
+        "habilidadesTecnicas": [
+            "Figma",
+            "Kubernetes",
+            "TypeScript",
+            "SQL"
+        ],
+        "softSkills": [
+            "Comunicação",
+            "Colaboração",
+            "Resiliência"
+        ],
+        "experiencias": [
+            {
+                "empresa": "Empresa D",
+                "cargo": "Cientista de Dados",
+                "inicio": "2021-01",
+                "fim": "2023-12",
+                "descricao": "Responsável por desenvolver soluções e integrar sistemas."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Bacharelado em Ciência da Computação",
+                "instituicao": "FIAP",
+                "ano": 2020
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Plataforma X",
+                "link": "https://github.com/example",
+                "descricao": "Projeto desenvolvido para estudos e testes."
+            }
+        ],
+        "certificacoes": [
+            "AWS Certified Data Analytics"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Intermediário"
+            }
+        ],
+        "areaInteresses": [
+            "Educação",
+            "Games"
+        ]
+    },
+    {
+        "id": 12,
+        "nome": "Bruno Pereira",
+        "foto": "./images/foto2.jpg",
+        "cargo": "Engenheiro de Software",
+        "resumo": "Profissional experiente em soluções modernas e tecnologia.",
+        "localizacao": "Belo Horizonte/MG",
+        "area": "DevOps",
+        "habilidadesTecnicas": [
+            "JavaScript",
+            "Node.js",
+            "Django",
+            "SQL"
+        ],
+        "softSkills": [
+            "Colaboração",
+            "Empatia",
+            "Adaptabilidade"
+        ],
+        "experiencias": [
+            {
+                "empresa": "Empresa D",
+                "cargo": "Desenvolvedor Backend",
+                "inicio": "2021-01",
+                "fim": "2023-12",
+                "descricao": "Responsável por desenvolver soluções e integrar sistemas."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Bacharelado em Ciência da Computação",
+                "instituicao": "FIAP",
+                "ano": 2018
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Plataforma X",
+                "link": "https://github.com/example",
+                "descricao": "Projeto desenvolvido para estudos e testes."
+            }
+        ],
+        "certificacoes": [
+            "AWS Certified Data Analytics"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Fluente"
+            }
+        ],
+        "areaInteresses": [
+            "IA Ética",
+            "Sustentabilidade"
+        ]
+    },
+    {
+        "id": 13,
+        "nome": "Igor Fernandes",
+        "foto": "./images/foto3.jpg",
+        "cargo": "QA Tester",
+        "resumo": "Profissional experiente em soluções modernas e tecnologia.",
+        "localizacao": "Fortaleza/CE",
+        "area": "Dados",
+        "habilidadesTecnicas": [
+            "Kubernetes",
+            "TypeScript",
+            "AWS",
+            "Python"
+        ],
+        "softSkills": [
+            "Adaptabilidade",
+            "Liderança",
+            "Empatia"
+        ],
+        "experiencias": [
+            {
+                "empresa": "Empresa C",
+                "cargo": "Product Designer",
+                "inicio": "2021-01",
+                "fim": "2023-12",
+                "descricao": "Responsável por desenvolver soluções e integrar sistemas."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Bacharelado em Ciência da Computação",
+                "instituicao": "FIAP",
+                "ano": 2015
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Plataforma X",
+                "link": "https://github.com/example",
+                "descricao": "Projeto desenvolvido para estudos e testes."
+            }
+        ],
+        "certificacoes": [
+            "AWS Certified Data Analytics"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Intermediário"
+            }
+        ],
+        "areaInteresses": [
+            "Open Source",
+            "Blockchain"
+        ]
+    },
+    {
+        "id": 14,
+        "nome": "Sabrina Melo",
+        "foto": "./images/foto4.jpg",
+        "cargo": "Cientista de Dados",
+        "resumo": "Profissional experiente em soluções modernas e tecnologia.",
+        "localizacao": "Belo Horizonte/MG",
+        "area": "Design",
+        "habilidadesTecnicas": [
+            "TypeScript",
+            "AWS",
+            "Python",
+            "JavaScript"
+        ],
+        "softSkills": [
+            "Colaboração",
+            "Criatividade",
+            "Liderança"
+        ],
+        "experiencias": [
+            {
+                "empresa": "Empresa C",
+                "cargo": "Product Designer",
+                "inicio": "2021-01",
+                "fim": "2023-12",
+                "descricao": "Responsável por desenvolver soluções e integrar sistemas."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Bacharelado em Ciência da Computação",
+                "instituicao": "FIAP",
+                "ano": 2015
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Plataforma X",
+                "link": "https://github.com/example",
+                "descricao": "Projeto desenvolvido para estudos e testes."
+            }
+        ],
+        "certificacoes": [
+            "AWS Certified Data Analytics"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Avançado"
+            }
+        ],
+        "areaInteresses": [
+            "Sustentabilidade",
+            "IA Ética"
+        ]
+    },
+    {
+        "id": 15,
+        "nome": "Sabrina Melo",
+        "foto": "./images/foto5.jpg",
+        "cargo": "Cientista de Dados",
+        "resumo": "Profissional experiente em soluções modernas e tecnologia.",
+        "localizacao": "Belo Horizonte/MG",
+        "area": "Design",
+        "habilidadesTecnicas": [
+            "Kubernetes",
+            "React",
+            "Node.js",
+            "Figma"
+        ],
+        "softSkills": [
+            "Comunicação",
+            "Resiliência",
+            "Adaptabilidade"
+        ],
+        "experiencias": [
+            {
+                "empresa": "Empresa D",
+                "cargo": "Engenheiro de Software",
+                "inicio": "2021-01",
+                "fim": "2023-12",
+                "descricao": "Responsável por desenvolver soluções e integrar sistemas."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Bacharelado em Ciência da Computação",
+                "instituicao": "FIAP",
+                "ano": 2022
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Plataforma X",
+                "link": "https://github.com/example",
+                "descricao": "Projeto desenvolvido para estudos e testes."
+            }
+        ],
+        "certificacoes": [
+            "AWS Certified Data Analytics"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Avançado"
+            }
+        ],
+        "areaInteresses": [
+            "Inovação",
+            "Educação"
+        ]
+    },
+    {
+        "id": 16,
+        "nome": "Rafael Campos",
+        "foto": "./images/foto6.jpg",
+        "cargo": "Product Designer",
+        "resumo": "Profissional experiente em soluções modernas e tecnologia.",
+        "localizacao": "Curitiba/PR",
+        "area": "Tecnologia",
+        "habilidadesTecnicas": [
+            "Python",
+            "React",
+            "MongoDB",
+            "SQL"
+        ],
+        "softSkills": [
+            "Criatividade",
+            "Liderança",
+            "Comunicação"
+        ],
+        "experiencias": [
+            {
+                "empresa": "Empresa A",
+                "cargo": "QA Tester",
+                "inicio": "2021-01",
+                "fim": "2023-12",
+                "descricao": "Responsável por desenvolver soluções e integrar sistemas."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Bacharelado em Ciência da Computação",
+                "instituicao": "FIAP",
+                "ano": 2019
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Plataforma X",
+                "link": "https://github.com/example",
+                "descricao": "Projeto desenvolvido para estudos e testes."
+            }
+        ],
+        "certificacoes": [
+            "AWS Certified Data Analytics"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Avançado"
+            }
+        ],
+        "areaInteresses": [
+            "IA Ética",
+            "Games"
+        ]
+    },
+    {
+        "id": 17,
+        "nome": "Vitória Assis",
+        "foto": "./images/foto7.jpg",
+        "cargo": "Cientista de Dados",
+        "resumo": "Profissional experiente em soluções modernas e tecnologia.",
+        "localizacao": "Rio de Janeiro/RJ",
+        "area": "Tecnologia",
+        "habilidadesTecnicas": [
+            "JavaScript",
+            "Python",
+            "SQL",
+            "MongoDB"
+        ],
+        "softSkills": [
+            "Liderança",
+            "Resiliência",
+            "Empatia"
+        ],
+        "experiencias": [
+            {
+                "empresa": "Empresa D",
+                "cargo": "Analista de Sistemas",
+                "inicio": "2021-01",
+                "fim": "2023-12",
+                "descricao": "Responsável por desenvolver soluções e integrar sistemas."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Bacharelado em Ciência da Computação",
+                "instituicao": "FIAP",
+                "ano": 2016
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Plataforma X",
+                "link": "https://github.com/example",
+                "descricao": "Projeto desenvolvido para estudos e testes."
+            }
+        ],
+        "certificacoes": [
+            "AWS Certified Data Analytics"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Avançado"
+            }
+        ],
+        "areaInteresses": [
+            "Games",
+            "Educação"
+        ]
+    },
+    {
+        "id": 18,
+        "nome": "Juliana Prado",
+        "foto": "./images/foto8.jpg",
+        "cargo": "Cientista de Dados",
+        "resumo": "Profissional experiente em soluções modernas e tecnologia.",
+        "localizacao": "Salvador/BA",
+        "area": "DevOps",
+        "habilidadesTecnicas": [
+            "Python",
+            "MongoDB",
+            "SQL",
+            "AWS"
+        ],
+        "softSkills": [
+            "Adaptabilidade",
+            "Empatia",
+            "Criatividade"
+        ],
+        "experiencias": [
+            {
+                "empresa": "Empresa C",
+                "cargo": "Analista de Sistemas",
+                "inicio": "2021-01",
+                "fim": "2023-12",
+                "descricao": "Responsável por desenvolver soluções e integrar sistemas."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Bacharelado em Ciência da Computação",
+                "instituicao": "FIAP",
+                "ano": 2015
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Plataforma X",
+                "link": "https://github.com/example",
+                "descricao": "Projeto desenvolvido para estudos e testes."
+            }
+        ],
+        "certificacoes": [
+            "AWS Certified Data Analytics"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Fluente"
+            }
+        ],
+        "areaInteresses": [
+            "Open Source",
+            "Educação"
+        ]
+    },
+    {
+        "id": 19,
+        "nome": "Natália Torres",
+        "foto": "./images/foto9.jpg",
+        "cargo": "DevOps Engineer",
+        "resumo": "Profissional experiente em soluções modernas e tecnologia.",
+        "localizacao": "Fortaleza/CE",
+        "area": "Tecnologia",
+        "habilidadesTecnicas": [
+            "SQL",
+            "AWS",
+            "TypeScript",
+            "Kubernetes"
+        ],
+        "softSkills": [
+            "Liderança",
+            "Criatividade",
+            "Adaptabilidade"
+        ],
+        "experiencias": [
+            {
+                "empresa": "Empresa B",
+                "cargo": "DevOps Engineer",
+                "inicio": "2021-01",
+                "fim": "2023-12",
+                "descricao": "Responsável por desenvolver soluções e integrar sistemas."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Bacharelado em Ciência da Computação",
+                "instituicao": "FIAP",
+                "ano": 2016
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Plataforma X",
+                "link": "https://github.com/example",
+                "descricao": "Projeto desenvolvido para estudos e testes."
+            }
+        ],
+        "certificacoes": [
+            "AWS Certified Data Analytics"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Fluente"
+            }
+        ],
+        "areaInteresses": [
+            "Educação",
+            "Inovação"
+        ]
+    },
+    {
+        "id": 20,
+        "nome": "Marcos Paulo",
+        "foto": "./images/foto10.jpg",
+        "cargo": "QA Tester",
+        "resumo": "Profissional experiente em soluções modernas e tecnologia.",
+        "localizacao": "Belo Horizonte/MG",
+        "area": "Dados",
+        "habilidadesTecnicas": [
+            "TypeScript",
+            "React",
+            "Docker",
+            "Django"
+        ],
+        "softSkills": [
+            "Adaptabilidade",
+            "Colaboração",
+            "Empatia"
+        ],
+        "experiencias": [
+            {
+                "empresa": "Empresa A",
+                "cargo": "Analista de Sistemas",
+                "inicio": "2021-01",
+                "fim": "2023-12",
+                "descricao": "Responsável por desenvolver soluções e integrar sistemas."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Bacharelado em Ciência da Computação",
+                "instituicao": "FIAP",
+                "ano": 2018
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Plataforma X",
+                "link": "https://github.com/example",
+                "descricao": "Projeto desenvolvido para estudos e testes."
+            }
+        ],
+        "certificacoes": [
+            "AWS Certified Data Analytics"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Avançado"
+            }
+        ],
+        "areaInteresses": [
+            "Games",
+            "Educação"
+        ]
+    },
+    {
+        "id": 21,
+        "nome": "Sabrina Melo",
+        "foto": "./images/foto1.jpg",
+        "cargo": "Cientista de Dados",
+        "resumo": "Profissional experiente em soluções modernas e tecnologia.",
+        "localizacao": "Curitiba/PR",
+        "area": "Tecnologia",
+        "habilidadesTecnicas": [
+            "React",
+            "Node.js",
+            "TypeScript",
+            "MongoDB"
+        ],
+        "softSkills": [
+            "Adaptabilidade",
+            "Resiliência",
+            "Criatividade"
+        ],
+        "experiencias": [
+            {
+                "empresa": "Empresa D",
+                "cargo": "Engenheiro de Software",
+                "inicio": "2021-01",
+                "fim": "2023-12",
+                "descricao": "Responsável por desenvolver soluções e integrar sistemas."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Bacharelado em Ciência da Computação",
+                "instituicao": "FIAP",
+                "ano": 2017
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Plataforma X",
+                "link": "https://github.com/example",
+                "descricao": "Projeto desenvolvido para estudos e testes."
+            }
+        ],
+        "certificacoes": [
+            "AWS Certified Data Analytics"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Fluente"
+            }
+        ],
+        "areaInteresses": [
+            "Educação",
+            "Inovação"
+        ]
+    },
+    {
+        "id": 22,
+        "nome": "Rafael Campos",
+        "foto": "./images/foto2.jpg",
+        "cargo": "Product Designer",
+        "resumo": "Profissional experiente em soluções modernas e tecnologia.",
+        "localizacao": "Belo Horizonte/MG",
+        "area": "Tecnologia",
+        "habilidadesTecnicas": [
+            "Node.js",
+            "SQL",
+            "TypeScript",
+            "Django"
+        ],
+        "softSkills": [
+            "Liderança",
+            "Empatia",
+            "Comunicação"
+        ],
+        "experiencias": [
+            {
+                "empresa": "Empresa C",
+                "cargo": "DevOps Engineer",
+                "inicio": "2021-01",
+                "fim": "2023-12",
+                "descricao": "Responsável por desenvolver soluções e integrar sistemas."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Bacharelado em Ciência da Computação",
+                "instituicao": "FIAP",
+                "ano": 2022
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Plataforma X",
+                "link": "https://github.com/example",
+                "descricao": "Projeto desenvolvido para estudos e testes."
+            }
+        ],
+        "certificacoes": [
+            "AWS Certified Data Analytics"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Avançado"
+            }
+        ],
+        "areaInteresses": [
+            "Open Source",
+            "Sustentabilidade"
+        ]
+    },
+    {
+        "id": 23,
+        "nome": "Tiago Gomes",
+        "foto": "./images/foto3.jpg",
+        "cargo": "QA Tester",
+        "resumo": "Profissional experiente em soluções modernas e tecnologia.",
+        "localizacao": "Porto Alegre/RS",
+        "area": "DevOps",
+        "habilidadesTecnicas": [
+            "TypeScript",
+            "JavaScript",
+            "Kubernetes",
+            "Docker"
+        ],
+        "softSkills": [
+            "Criatividade",
+            "Comunicação",
+            "Empatia"
+        ],
+        "experiencias": [
+            {
+                "empresa": "Empresa B",
+                "cargo": "Product Designer",
+                "inicio": "2021-01",
+                "fim": "2023-12",
+                "descricao": "Responsável por desenvolver soluções e integrar sistemas."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Bacharelado em Ciência da Computação",
+                "instituicao": "FIAP",
+                "ano": 2020
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Plataforma X",
+                "link": "https://github.com/example",
+                "descricao": "Projeto desenvolvido para estudos e testes."
+            }
+        ],
+        "certificacoes": [
+            "AWS Certified Data Analytics"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Intermediário"
+            }
+        ],
+        "areaInteresses": [
+            "IA Ética",
+            "Open Source"
+        ]
+    },
+    {
+        "id": 24,
+        "nome": "Sabrina Melo",
+        "foto": "./images/foto4.jpg",
+        "cargo": "Engenheiro de Software",
+        "resumo": "Profissional experiente em soluções modernas e tecnologia.",
+        "localizacao": "Belo Horizonte/MG",
+        "area": "Tecnologia",
+        "habilidadesTecnicas": [
+            "Node.js",
+            "SQL",
+            "Figma",
+            "JavaScript"
+        ],
+        "softSkills": [
+            "Criatividade",
+            "Empatia",
+            "Colaboração"
+        ],
+        "experiencias": [
+            {
+                "empresa": "Empresa D",
+                "cargo": "DevOps Engineer",
+                "inicio": "2021-01",
+                "fim": "2023-12",
+                "descricao": "Responsável por desenvolver soluções e integrar sistemas."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Bacharelado em Ciência da Computação",
+                "instituicao": "FIAP",
+                "ano": 2022
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Plataforma X",
+                "link": "https://github.com/example",
+                "descricao": "Projeto desenvolvido para estudos e testes."
+            }
+        ],
+        "certificacoes": [
+            "AWS Certified Data Analytics"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Fluente"
+            }
+        ],
+        "areaInteresses": [
+            "Educação",
+            "IA Ética"
+        ]
+    },
+    {
+        "id": 25,
+        "nome": "Sabrina Melo",
+        "foto": "./images/foto5.jpg",
+        "cargo": "QA Tester",
+        "resumo": "Profissional experiente em soluções modernas e tecnologia.",
+        "localizacao": "Salvador/BA",
+        "area": "Dados",
+        "habilidadesTecnicas": [
+            "Node.js",
+            "React",
+            "MongoDB",
+            "TypeScript"
+        ],
+        "softSkills": [
+            "Empatia",
+            "Criatividade",
+            "Adaptabilidade"
+        ],
+        "experiencias": [
+            {
+                "empresa": "Empresa D",
+                "cargo": "Analista de Sistemas",
+                "inicio": "2021-01",
+                "fim": "2023-12",
+                "descricao": "Responsável por desenvolver soluções e integrar sistemas."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Bacharelado em Ciência da Computação",
+                "instituicao": "FIAP",
+                "ano": 2022
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Plataforma X",
+                "link": "https://github.com/example",
+                "descricao": "Projeto desenvolvido para estudos e testes."
+            }
+        ],
+        "certificacoes": [
+            "AWS Certified Data Analytics"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Intermediário"
+            }
+        ],
+        "areaInteresses": [
+            "Sustentabilidade",
+            "Games"
+        ]
+    },
+    {
+        "id": 26,
+        "nome": "Fernanda Rocha",
+        "foto": "./images/foto6.jpg",
+        "cargo": "Cientista de Dados",
+        "resumo": "Profissional experiente em soluções modernas e tecnologia.",
+        "localizacao": "Salvador/BA",
+        "area": "DevOps",
+        "habilidadesTecnicas": [
+            "Figma",
+            "Node.js",
+            "TypeScript",
+            "Django"
+        ],
+        "softSkills": [
+            "Comunicação",
+            "Resiliência",
+            "Liderança"
+        ],
+        "experiencias": [
+            {
+                "empresa": "Empresa D",
+                "cargo": "Desenvolvedor Backend",
+                "inicio": "2021-01",
+                "fim": "2023-12",
+                "descricao": "Responsável por desenvolver soluções e integrar sistemas."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Bacharelado em Ciência da Computação",
+                "instituicao": "FIAP",
+                "ano": 2018
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Plataforma X",
+                "link": "https://github.com/example",
+                "descricao": "Projeto desenvolvido para estudos e testes."
+            }
+        ],
+        "certificacoes": [
+            "AWS Certified Data Analytics"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Intermediário"
+            }
+        ],
+        "areaInteresses": [
+            "Blockchain",
+            "IA Ética"
+        ]
+    },
+    {
+        "id": 27,
+        "nome": "Bruno Pereira",
+        "foto": "./images/foto7.jpg",
+        "cargo": "DevOps Engineer",
+        "resumo": "Profissional experiente em soluções modernas e tecnologia.",
+        "localizacao": "Curitiba/PR",
+        "area": "Tecnologia",
+        "habilidadesTecnicas": [
+            "Kubernetes",
+            "Node.js",
+            "Docker",
+            "AWS"
+        ],
+        "softSkills": [
+            "Colaboração",
+            "Resiliência",
+            "Liderança"
+        ],
+        "experiencias": [
+            {
+                "empresa": "Empresa C",
+                "cargo": "Cientista de Dados",
+                "inicio": "2021-01",
+                "fim": "2023-12",
+                "descricao": "Responsável por desenvolver soluções e integrar sistemas."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Bacharelado em Ciência da Computação",
+                "instituicao": "FIAP",
+                "ano": 2020
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Plataforma X",
+                "link": "https://github.com/example",
+                "descricao": "Projeto desenvolvido para estudos e testes."
+            }
+        ],
+        "certificacoes": [
+            "AWS Certified Data Analytics"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Intermediário"
+            }
+        ],
+        "areaInteresses": [
+            "Blockchain",
+            "Inovação"
+        ]
+    },
+    {
+        "id": 28,
+        "nome": "Natália Torres",
+        "foto": "./images/foto8.jpg",
+        "cargo": "Desenvolvedor Backend",
+        "resumo": "Profissional experiente em soluções modernas e tecnologia.",
+        "localizacao": "Curitiba/PR",
+        "area": "Dados",
+        "habilidadesTecnicas": [
+            "Node.js",
+            "MongoDB",
+            "AWS",
+            "Figma"
+        ],
+        "softSkills": [
+            "Comunicação",
+            "Empatia",
+            "Adaptabilidade"
+        ],
+        "experiencias": [
+            {
+                "empresa": "Empresa A",
+                "cargo": "Desenvolvedor Backend",
+                "inicio": "2021-01",
+                "fim": "2023-12",
+                "descricao": "Responsável por desenvolver soluções e integrar sistemas."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Bacharelado em Ciência da Computação",
+                "instituicao": "FIAP",
+                "ano": 2016
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Plataforma X",
+                "link": "https://github.com/example",
+                "descricao": "Projeto desenvolvido para estudos e testes."
+            }
+        ],
+        "certificacoes": [
+            "AWS Certified Data Analytics"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Avançado"
+            }
+        ],
+        "areaInteresses": [
+            "Educação",
+            "Blockchain"
+        ]
+    },
+    {
+        "id": 29,
+        "nome": "Vitória Assis",
+        "foto": "./images/foto9.jpg",
+        "cargo": "Analista de Sistemas",
+        "resumo": "Profissional experiente em soluções modernas e tecnologia.",
+        "localizacao": "São Paulo/SP",
+        "area": "Dados",
+        "habilidadesTecnicas": [
+            "Python",
+            "Figma",
+            "TypeScript",
+            "SQL"
+        ],
+        "softSkills": [
+            "Criatividade",
+            "Resiliência",
+            "Comunicação"
+        ],
+        "experiencias": [
+            {
+                "empresa": "Empresa B",
+                "cargo": "QA Tester",
+                "inicio": "2021-01",
+                "fim": "2023-12",
+                "descricao": "Responsável por desenvolver soluções e integrar sistemas."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Bacharelado em Ciência da Computação",
+                "instituicao": "FIAP",
+                "ano": 2017
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Plataforma X",
+                "link": "https://github.com/example",
+                "descricao": "Projeto desenvolvido para estudos e testes."
+            }
+        ],
+        "certificacoes": [
+            "AWS Certified Data Analytics"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Avançado"
+            }
+        ],
+        "areaInteresses": [
+            "IA Ética",
+            "Blockchain"
+        ]
+    },
+    {
+        "id": 30,
+        "nome": "Carlos Eduardo",
+        "foto": "./images/foto10.jpg",
+        "cargo": "Cientista de Dados",
+        "resumo": "Profissional experiente em soluções modernas e tecnologia.",
+        "localizacao": "Belo Horizonte/MG",
+        "area": "Dados",
+        "habilidadesTecnicas": [
+            "Node.js",
+            "React",
+            "Kubernetes",
+            "AWS"
+        ],
+        "softSkills": [
+            "Criatividade",
+            "Liderança",
+            "Empatia"
+        ],
+        "experiencias": [
+            {
+                "empresa": "Empresa D",
+                "cargo": "Analista de Sistemas",
+                "inicio": "2021-01",
+                "fim": "2023-12",
+                "descricao": "Responsável por desenvolver soluções e integrar sistemas."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Bacharelado em Ciência da Computação",
+                "instituicao": "FIAP",
+                "ano": 2018
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Plataforma X",
+                "link": "https://github.com/example",
+                "descricao": "Projeto desenvolvido para estudos e testes."
+            }
+        ],
+        "certificacoes": [
+            "AWS Certified Data Analytics"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Avançado"
+            }
+        ],
+        "areaInteresses": [
+            "Inovação",
+            "Open Source"
+        ]
+    },
+    {
+        "id": 31,
+        "nome": "Sabrina Melo",
+        "foto": "./images/foto1.jpg",
+        "cargo": "DevOps Engineer",
+        "resumo": "Profissional experiente em soluções modernas e tecnologia.",
+        "localizacao": "Rio de Janeiro/RJ",
+        "area": "Dados",
+        "habilidadesTecnicas": [
+            "Figma",
+            "AWS",
+            "Docker",
+            "React"
+        ],
+        "softSkills": [
+            "Comunicação",
+            "Criatividade",
+            "Resiliência"
+        ],
+        "experiencias": [
+            {
+                "empresa": "Empresa D",
+                "cargo": "Desenvolvedor Backend",
+                "inicio": "2021-01",
+                "fim": "2023-12",
+                "descricao": "Responsável por desenvolver soluções e integrar sistemas."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Bacharelado em Ciência da Computação",
+                "instituicao": "FIAP",
+                "ano": 2019
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Plataforma X",
+                "link": "https://github.com/example",
+                "descricao": "Projeto desenvolvido para estudos e testes."
+            }
+        ],
+        "certificacoes": [
+            "AWS Certified Data Analytics"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Intermediário"
+            }
+        ],
+        "areaInteresses": [
+            "Inovação",
+            "IA Ética"
+        ]
+    },
+    {
+        "id": 32,
+        "nome": "Kaio Matos",
+        "foto": "./images/foto2.jpg",
+        "cargo": "Product Designer",
+        "resumo": "Profissional experiente em soluções modernas e tecnologia.",
+        "localizacao": "Rio de Janeiro/RJ",
+        "area": "DevOps",
+        "habilidadesTecnicas": [
+            "Django",
+            "MongoDB",
+            "SQL",
+            "TypeScript"
+        ],
+        "softSkills": [
+            "Comunicação",
+            "Liderança",
+            "Resiliência"
+        ],
+        "experiencias": [
+            {
+                "empresa": "Empresa A",
+                "cargo": "Engenheiro de Software",
+                "inicio": "2021-01",
+                "fim": "2023-12",
+                "descricao": "Responsável por desenvolver soluções e integrar sistemas."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Bacharelado em Ciência da Computação",
+                "instituicao": "FIAP",
+                "ano": 2019
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Plataforma X",
+                "link": "https://github.com/example",
+                "descricao": "Projeto desenvolvido para estudos e testes."
+            }
+        ],
+        "certificacoes": [
+            "AWS Certified Data Analytics"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Intermediário"
+            }
+        ],
+        "areaInteresses": [
+            "Educação",
+            "Games"
+        ]
+    },
+    {
+        "id": 33,
+        "nome": "Helena Souza",
+        "foto": "./images/foto3.jpg",
+        "cargo": "Desenvolvedor Backend",
+        "resumo": "Profissional experiente em soluções modernas e tecnologia.",
+        "localizacao": "Rio de Janeiro/RJ",
+        "area": "Design",
+        "habilidadesTecnicas": [
+            "Figma",
+            "Python",
+            "SQL",
+            "AWS"
+        ],
+        "softSkills": [
+            "Colaboração",
+            "Adaptabilidade",
+            "Liderança"
+        ],
+        "experiencias": [
+            {
+                "empresa": "Empresa A",
+                "cargo": "DevOps Engineer",
+                "inicio": "2021-01",
+                "fim": "2023-12",
+                "descricao": "Responsável por desenvolver soluções e integrar sistemas."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Bacharelado em Ciência da Computação",
+                "instituicao": "FIAP",
+                "ano": 2016
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Plataforma X",
+                "link": "https://github.com/example",
+                "descricao": "Projeto desenvolvido para estudos e testes."
+            }
+        ],
+        "certificacoes": [
+            "AWS Certified Data Analytics"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Fluente"
+            }
+        ],
+        "areaInteresses": [
+            "Games",
+            "Educação"
+        ]
+    },
+    {
+        "id": 34,
+        "nome": "Otávio Moreira",
+        "foto": "./images/foto4.jpg",
+        "cargo": "Cientista de Dados",
+        "resumo": "Profissional experiente em soluções modernas e tecnologia.",
+        "localizacao": "Rio de Janeiro/RJ",
+        "area": "DevOps",
+        "habilidadesTecnicas": [
+            "Node.js",
+            "Kubernetes",
+            "Docker",
+            "Python"
+        ],
+        "softSkills": [
+            "Adaptabilidade",
+            "Liderança",
+            "Colaboração"
+        ],
+        "experiencias": [
+            {
+                "empresa": "Empresa A",
+                "cargo": "Cientista de Dados",
+                "inicio": "2021-01",
+                "fim": "2023-12",
+                "descricao": "Responsável por desenvolver soluções e integrar sistemas."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Bacharelado em Ciência da Computação",
+                "instituicao": "FIAP",
+                "ano": 2019
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Plataforma X",
+                "link": "https://github.com/example",
+                "descricao": "Projeto desenvolvido para estudos e testes."
+            }
+        ],
+        "certificacoes": [
+            "AWS Certified Data Analytics"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Avançado"
+            }
+        ],
+        "areaInteresses": [
+            "Blockchain",
+            "Open Source"
+        ]
+    },
+    {
+        "id": 35,
+        "nome": "Larissa Mendes",
+        "foto": "./images/foto5.jpg",
+        "cargo": "Desenvolvedor Backend",
+        "resumo": "Profissional experiente em soluções modernas e tecnologia.",
+        "localizacao": "Fortaleza/CE",
+        "area": "Design",
+        "habilidadesTecnicas": [
+            "Kubernetes",
+            "Python",
+            "SQL",
+            "React"
+        ],
+        "softSkills": [
+            "Colaboração",
+            "Comunicação",
+            "Resiliência"
+        ],
+        "experiencias": [
+            {
+                "empresa": "Empresa A",
+                "cargo": "QA Tester",
+                "inicio": "2021-01",
+                "fim": "2023-12",
+                "descricao": "Responsável por desenvolver soluções e integrar sistemas."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Bacharelado em Ciência da Computação",
+                "instituicao": "FIAP",
+                "ano": 2022
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Plataforma X",
+                "link": "https://github.com/example",
+                "descricao": "Projeto desenvolvido para estudos e testes."
+            }
+        ],
+        "certificacoes": [
+            "AWS Certified Data Analytics"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Intermediário"
+            }
+        ],
+        "areaInteresses": [
+            "Sustentabilidade",
+            "Open Source"
+        ]
+    },
+    {
+        "id": 36,
+        "nome": "Kaio Matos",
+        "foto": "./images/foto6.jpg",
+        "cargo": "Analista de Sistemas",
+        "resumo": "Profissional experiente em soluções modernas e tecnologia.",
+        "localizacao": "Porto Alegre/RS",
+        "area": "Dados",
+        "habilidadesTecnicas": [
+            "Docker",
+            "AWS",
+            "MongoDB",
+            "Figma"
+        ],
+        "softSkills": [
+            "Liderança",
+            "Comunicação",
+            "Resiliência"
+        ],
+        "experiencias": [
+            {
+                "empresa": "Empresa C",
+                "cargo": "Desenvolvedor Backend",
+                "inicio": "2021-01",
+                "fim": "2023-12",
+                "descricao": "Responsável por desenvolver soluções e integrar sistemas."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Bacharelado em Ciência da Computação",
+                "instituicao": "FIAP",
+                "ano": 2023
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Plataforma X",
+                "link": "https://github.com/example",
+                "descricao": "Projeto desenvolvido para estudos e testes."
+            }
+        ],
+        "certificacoes": [
+            "AWS Certified Data Analytics"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Avançado"
+            }
+        ],
+        "areaInteresses": [
+            "Educação",
+            "Games"
+        ]
+    },
+    {
+        "id": 37,
+        "nome": "Helena Souza",
+        "foto": "./images/foto7.jpg",
+        "cargo": "DevOps Engineer",
+        "resumo": "Profissional experiente em soluções modernas e tecnologia.",
+        "localizacao": "Curitiba/PR",
+        "area": "Tecnologia",
+        "habilidadesTecnicas": [
+            "Python",
+            "JavaScript",
+            "React",
+            "AWS"
+        ],
+        "softSkills": [
+            "Empatia",
+            "Adaptabilidade",
+            "Liderança"
+        ],
+        "experiencias": [
+            {
+                "empresa": "Empresa B",
+                "cargo": "Engenheiro de Software",
+                "inicio": "2021-01",
+                "fim": "2023-12",
+                "descricao": "Responsável por desenvolver soluções e integrar sistemas."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Bacharelado em Ciência da Computação",
+                "instituicao": "FIAP",
+                "ano": 2017
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Plataforma X",
+                "link": "https://github.com/example",
+                "descricao": "Projeto desenvolvido para estudos e testes."
+            }
+        ],
+        "certificacoes": [
+            "AWS Certified Data Analytics"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Fluente"
+            }
+        ],
+        "areaInteresses": [
+            "IA Ética",
+            "Educação"
+        ]
+    },
+    {
+        "id": 38,
+        "nome": "Vitória Assis",
+        "foto": "./images/foto8.jpg",
+        "cargo": "Analista de Sistemas",
+        "resumo": "Profissional experiente em soluções modernas e tecnologia.",
+        "localizacao": "Belo Horizonte/MG",
+        "area": "Tecnologia",
+        "habilidadesTecnicas": [
+            "React",
+            "MongoDB",
+            "Docker",
+            "TypeScript"
+        ],
+        "softSkills": [
+            "Liderança",
+            "Adaptabilidade",
+            "Criatividade"
+        ],
+        "experiencias": [
+            {
+                "empresa": "Empresa C",
+                "cargo": "Cientista de Dados",
+                "inicio": "2021-01",
+                "fim": "2023-12",
+                "descricao": "Responsável por desenvolver soluções e integrar sistemas."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Bacharelado em Ciência da Computação",
+                "instituicao": "FIAP",
+                "ano": 2018
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Plataforma X",
+                "link": "https://github.com/example",
+                "descricao": "Projeto desenvolvido para estudos e testes."
+            }
+        ],
+        "certificacoes": [
+            "AWS Certified Data Analytics"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Fluente"
+            }
+        ],
+        "areaInteresses": [
+            "Sustentabilidade",
+            "Blockchain"
+        ]
+    },
+    {
+        "id": 39,
+        "nome": "Sabrina Melo",
+        "foto": "./images/foto9.jpg",
+        "cargo": "Cientista de Dados",
+        "resumo": "Profissional experiente em soluções modernas e tecnologia.",
+        "localizacao": "Fortaleza/CE",
+        "area": "Design",
+        "habilidadesTecnicas": [
+            "React",
+            "Django",
+            "MongoDB",
+            "Figma"
+        ],
+        "softSkills": [
+            "Adaptabilidade",
+            "Resiliência",
+            "Colaboração"
+        ],
+        "experiencias": [
+            {
+                "empresa": "Empresa D",
+                "cargo": "Desenvolvedor Backend",
+                "inicio": "2021-01",
+                "fim": "2023-12",
+                "descricao": "Responsável por desenvolver soluções e integrar sistemas."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Bacharelado em Ciência da Computação",
+                "instituicao": "FIAP",
+                "ano": 2015
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Plataforma X",
+                "link": "https://github.com/example",
+                "descricao": "Projeto desenvolvido para estudos e testes."
+            }
+        ],
+        "certificacoes": [
+            "AWS Certified Data Analytics"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Fluente"
+            }
+        ],
+        "areaInteresses": [
+            "Open Source",
+            "Games"
+        ]
+    },
+    {
+        "id": 40,
+        "nome": "Kaio Matos",
+        "foto": "./images/foto10.jpg",
+        "cargo": "Cientista de Dados",
+        "resumo": "Profissional experiente em soluções modernas e tecnologia.",
+        "localizacao": "Belo Horizonte/MG",
+        "area": "Dados",
+        "habilidadesTecnicas": [
+            "AWS",
+            "SQL",
+            "Kubernetes",
+            "React"
+        ],
+        "softSkills": [
+            "Criatividade",
+            "Empatia",
+            "Resiliência"
+        ],
+        "experiencias": [
+            {
+                "empresa": "Empresa D",
+                "cargo": "Cientista de Dados",
+                "inicio": "2021-01",
+                "fim": "2023-12",
+                "descricao": "Responsável por desenvolver soluções e integrar sistemas."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Bacharelado em Ciência da Computação",
+                "instituicao": "FIAP",
+                "ano": 2018
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Plataforma X",
+                "link": "https://github.com/example",
+                "descricao": "Projeto desenvolvido para estudos e testes."
+            }
+        ],
+        "certificacoes": [
+            "AWS Certified Data Analytics"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Intermediário"
+            }
+        ],
+        "areaInteresses": [
+            "Sustentabilidade",
+            "IA Ética"
+        ]
+    },
+    {
+        "id": 41,
+        "nome": "Marcos Paulo",
+        "foto": "./images/foto1.jpg",
+        "cargo": "QA Tester",
+        "resumo": "Profissional experiente em soluções modernas e tecnologia.",
+        "localizacao": "Belo Horizonte/MG",
+        "area": "DevOps",
+        "habilidadesTecnicas": [
+            "MongoDB",
+            "Django",
+            "SQL",
+            "Figma"
+        ],
+        "softSkills": [
+            "Liderança",
+            "Comunicação",
+            "Empatia"
+        ],
+        "experiencias": [
+            {
+                "empresa": "Empresa C",
+                "cargo": "Analista de Sistemas",
+                "inicio": "2021-01",
+                "fim": "2023-12",
+                "descricao": "Responsável por desenvolver soluções e integrar sistemas."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Bacharelado em Ciência da Computação",
+                "instituicao": "FIAP",
+                "ano": 2017
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Plataforma X",
+                "link": "https://github.com/example",
+                "descricao": "Projeto desenvolvido para estudos e testes."
+            }
+        ],
+        "certificacoes": [
+            "AWS Certified Data Analytics"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Avançado"
+            }
+        ],
+        "areaInteresses": [
+            "Inovação",
+            "Open Source"
+        ]
+    },
+    {
+        "id": 42,
+        "nome": "Fernanda Rocha",
+        "foto": "./images/foto2.jpg",
+        "cargo": "Engenheiro de Software",
+        "resumo": "Profissional experiente em soluções modernas e tecnologia.",
+        "localizacao": "São Paulo/SP",
+        "area": "Dados",
+        "habilidadesTecnicas": [
+            "Node.js",
+            "Figma",
+            "Docker",
+            "AWS"
+        ],
+        "softSkills": [
+            "Colaboração",
+            "Liderança",
+            "Comunicação"
+        ],
+        "experiencias": [
+            {
+                "empresa": "Empresa D",
+                "cargo": "Product Designer",
+                "inicio": "2021-01",
+                "fim": "2023-12",
+                "descricao": "Responsável por desenvolver soluções e integrar sistemas."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Bacharelado em Ciência da Computação",
+                "instituicao": "FIAP",
+                "ano": 2020
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Plataforma X",
+                "link": "https://github.com/example",
+                "descricao": "Projeto desenvolvido para estudos e testes."
+            }
+        ],
+        "certificacoes": [
+            "AWS Certified Data Analytics"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Avançado"
+            }
+        ],
+        "areaInteresses": [
+            "IA Ética",
+            "Sustentabilidade"
+        ]
+    },
+    {
+        "id": 43,
+        "nome": "Otávio Moreira",
+        "foto": "./images/foto3.jpg",
+        "cargo": "Desenvolvedor Backend",
+        "resumo": "Profissional experiente em soluções modernas e tecnologia.",
+        "localizacao": "Salvador/BA",
+        "area": "Tecnologia",
+        "habilidadesTecnicas": [
+            "Django",
+            "Docker",
+            "MongoDB",
+            "SQL"
+        ],
+        "softSkills": [
+            "Criatividade",
+            "Comunicação",
+            "Empatia"
+        ],
+        "experiencias": [
+            {
+                "empresa": "Empresa A",
+                "cargo": "Product Designer",
+                "inicio": "2021-01",
+                "fim": "2023-12",
+                "descricao": "Responsável por desenvolver soluções e integrar sistemas."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Bacharelado em Ciência da Computação",
+                "instituicao": "FIAP",
+                "ano": 2017
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Plataforma X",
+                "link": "https://github.com/example",
+                "descricao": "Projeto desenvolvido para estudos e testes."
+            }
+        ],
+        "certificacoes": [
+            "AWS Certified Data Analytics"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Intermediário"
+            }
+        ],
+        "areaInteresses": [
+            "Inovação",
+            "Sustentabilidade"
+        ]
+    },
+    {
+        "id": 44,
+        "nome": "Otávio Moreira",
+        "foto": "./images/foto4.jpg",
+        "cargo": "Cientista de Dados",
+        "resumo": "Profissional experiente em soluções modernas e tecnologia.",
+        "localizacao": "Curitiba/PR",
+        "area": "DevOps",
+        "habilidadesTecnicas": [
+            "JavaScript",
+            "Figma",
+            "SQL",
+            "Kubernetes"
+        ],
+        "softSkills": [
+            "Liderança",
+            "Empatia",
+            "Colaboração"
+        ],
+        "experiencias": [
+            {
+                "empresa": "Empresa D",
+                "cargo": "Engenheiro de Software",
+                "inicio": "2021-01",
+                "fim": "2023-12",
+                "descricao": "Responsável por desenvolver soluções e integrar sistemas."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Bacharelado em Ciência da Computação",
+                "instituicao": "FIAP",
+                "ano": 2019
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Plataforma X",
+                "link": "https://github.com/example",
+                "descricao": "Projeto desenvolvido para estudos e testes."
+            }
+        ],
+        "certificacoes": [
+            "AWS Certified Data Analytics"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Avançado"
+            }
+        ],
+        "areaInteresses": [
+            "Open Source",
+            "IA Ética"
+        ]
+    },
+    {
+        "id": 45,
+        "nome": "Ana Silva",
+        "foto": "./images/foto5.jpg",
+        "cargo": "Cientista de Dados",
+        "resumo": "Profissional experiente em soluções modernas e tecnologia.",
+        "localizacao": "Salvador/BA",
+        "area": "Dados",
+        "habilidadesTecnicas": [
+            "Node.js",
+            "SQL",
+            "Docker",
+            "Django"
+        ],
+        "softSkills": [
+            "Resiliência",
+            "Liderança",
+            "Criatividade"
+        ],
+        "experiencias": [
+            {
+                "empresa": "Empresa A",
+                "cargo": "Product Designer",
+                "inicio": "2021-01",
+                "fim": "2023-12",
+                "descricao": "Responsável por desenvolver soluções e integrar sistemas."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Bacharelado em Ciência da Computação",
+                "instituicao": "FIAP",
+                "ano": 2017
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Plataforma X",
+                "link": "https://github.com/example",
+                "descricao": "Projeto desenvolvido para estudos e testes."
+            }
+        ],
+        "certificacoes": [
+            "AWS Certified Data Analytics"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Fluente"
+            }
+        ],
+        "areaInteresses": [
+            "Educação",
+            "Games"
+        ]
+    },
+    {
+        "id": 46,
+        "nome": "Bruno Pereira",
+        "foto": "./images/foto6.jpg",
+        "cargo": "QA Tester",
+        "resumo": "Profissional experiente em soluções modernas e tecnologia.",
+        "localizacao": "Porto Alegre/RS",
+        "area": "DevOps",
+        "habilidadesTecnicas": [
+            "React",
+            "AWS",
+            "Django",
+            "TypeScript"
+        ],
+        "softSkills": [
+            "Liderança",
+            "Criatividade",
+            "Comunicação"
+        ],
+        "experiencias": [
+            {
+                "empresa": "Empresa C",
+                "cargo": "Cientista de Dados",
+                "inicio": "2021-01",
+                "fim": "2023-12",
+                "descricao": "Responsável por desenvolver soluções e integrar sistemas."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Bacharelado em Ciência da Computação",
+                "instituicao": "FIAP",
+                "ano": 2017
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Plataforma X",
+                "link": "https://github.com/example",
+                "descricao": "Projeto desenvolvido para estudos e testes."
+            }
+        ],
+        "certificacoes": [
+            "AWS Certified Data Analytics"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Intermediário"
+            }
+        ],
+        "areaInteresses": [
+            "IA Ética",
+            "Games"
+        ]
+    },
+    {
+        "id": 47,
+        "nome": "Igor Fernandes",
+        "foto": "./images/foto7.jpg",
+        "cargo": "Cientista de Dados",
+        "resumo": "Profissional experiente em soluções modernas e tecnologia.",
+        "localizacao": "Fortaleza/CE",
+        "area": "Tecnologia",
+        "habilidadesTecnicas": [
+            "Python",
+            "Node.js",
+            "AWS",
+            "Kubernetes"
+        ],
+        "softSkills": [
+            "Liderança",
+            "Colaboração",
+            "Empatia"
+        ],
+        "experiencias": [
+            {
+                "empresa": "Empresa C",
+                "cargo": "Desenvolvedor Backend",
+                "inicio": "2021-01",
+                "fim": "2023-12",
+                "descricao": "Responsável por desenvolver soluções e integrar sistemas."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Bacharelado em Ciência da Computação",
+                "instituicao": "FIAP",
+                "ano": 2016
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Plataforma X",
+                "link": "https://github.com/example",
+                "descricao": "Projeto desenvolvido para estudos e testes."
+            }
+        ],
+        "certificacoes": [
+            "AWS Certified Data Analytics"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Fluente"
+            }
+        ],
+        "areaInteresses": [
+            "Inovação",
+            "Blockchain"
+        ]
+    },
+    {
+        "id": 48,
+        "nome": "Eduardo Martins",
+        "foto": "./images/foto8.jpg",
+        "cargo": "Desenvolvedor Backend",
+        "resumo": "Profissional experiente em soluções modernas e tecnologia.",
+        "localizacao": "Salvador/BA",
+        "area": "Dados",
+        "habilidadesTecnicas": [
+            "Kubernetes",
+            "Docker",
+            "React",
+            "TypeScript"
+        ],
+        "softSkills": [
+            "Resiliência",
+            "Colaboração",
+            "Adaptabilidade"
+        ],
+        "experiencias": [
+            {
+                "empresa": "Empresa C",
+                "cargo": "Engenheiro de Software",
+                "inicio": "2021-01",
+                "fim": "2023-12",
+                "descricao": "Responsável por desenvolver soluções e integrar sistemas."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Bacharelado em Ciência da Computação",
+                "instituicao": "FIAP",
+                "ano": 2015
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Plataforma X",
+                "link": "https://github.com/example",
+                "descricao": "Projeto desenvolvido para estudos e testes."
+            }
+        ],
+        "certificacoes": [
+            "AWS Certified Data Analytics"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Intermediário"
+            }
+        ],
+        "areaInteresses": [
+            "Games",
+            "IA Ética"
+        ]
+    },
+    {
+        "id": 49,
+        "nome": "Vitória Assis",
+        "foto": "./images/foto9.jpg",
+        "cargo": "QA Tester",
+        "resumo": "Profissional experiente em soluções modernas e tecnologia.",
+        "localizacao": "Belo Horizonte/MG",
+        "area": "Design",
+        "habilidadesTecnicas": [
+            "Node.js",
+            "Figma",
+            "React",
+            "Kubernetes"
+        ],
+        "softSkills": [
+            "Empatia",
+            "Comunicação",
+            "Adaptabilidade"
+        ],
+        "experiencias": [
+            {
+                "empresa": "Empresa C",
+                "cargo": "Cientista de Dados",
+                "inicio": "2021-01",
+                "fim": "2023-12",
+                "descricao": "Responsável por desenvolver soluções e integrar sistemas."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Bacharelado em Ciência da Computação",
+                "instituicao": "FIAP",
+                "ano": 2022
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Plataforma X",
+                "link": "https://github.com/example",
+                "descricao": "Projeto desenvolvido para estudos e testes."
+            }
+        ],
+        "certificacoes": [
+            "AWS Certified Data Analytics"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Fluente"
+            }
+        ],
+        "areaInteresses": [
+            "Sustentabilidade",
+            "Educação"
+        ]
+    },
+    {
+        "id": 50,
+        "nome": "Carlos Eduardo",
+        "foto": "./images/foto10.jpg",
+        "cargo": "Product Designer",
+        "resumo": "Profissional experiente em soluções modernas e tecnologia.",
+        "localizacao": "Porto Alegre/RS",
+        "area": "DevOps",
+        "habilidadesTecnicas": [
+            "TypeScript",
+            "Python",
+            "Kubernetes",
+            "Django"
+        ],
+        "softSkills": [
+            "Resiliência",
+            "Criatividade",
+            "Adaptabilidade"
+        ],
+        "experiencias": [
+            {
+                "empresa": "Empresa B",
+                "cargo": "DevOps Engineer",
+                "inicio": "2021-01",
+                "fim": "2023-12",
+                "descricao": "Responsável por desenvolver soluções e integrar sistemas."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Bacharelado em Ciência da Computação",
+                "instituicao": "FIAP",
+                "ano": 2021
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Plataforma X",
+                "link": "https://github.com/example",
+                "descricao": "Projeto desenvolvido para estudos e testes."
+            }
+        ],
+        "certificacoes": [
+            "AWS Certified Data Analytics"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Avançado"
+            }
+        ],
+        "areaInteresses": [
+            "Games",
+            "Sustentabilidade"
+        ]
+    },
+    {
+        "id": 51,
+        "nome": "Helena Souza",
+        "foto": "./images/foto1.jpg",
+        "cargo": "Product Designer",
+        "resumo": "Profissional experiente em soluções modernas e tecnologia.",
+        "localizacao": "Porto Alegre/RS",
+        "area": "DevOps",
+        "habilidadesTecnicas": [
+            "MongoDB",
+            "Python",
+            "Docker",
+            "Figma"
+        ],
+        "softSkills": [
+            "Resiliência",
+            "Comunicação",
+            "Empatia"
+        ],
+        "experiencias": [
+            {
+                "empresa": "Empresa B",
+                "cargo": "Desenvolvedor Backend",
+                "inicio": "2021-01",
+                "fim": "2023-12",
+                "descricao": "Responsável por desenvolver soluções e integrar sistemas."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Bacharelado em Ciência da Computação",
+                "instituicao": "FIAP",
+                "ano": 2016
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Plataforma X",
+                "link": "https://github.com/example",
+                "descricao": "Projeto desenvolvido para estudos e testes."
+            }
+        ],
+        "certificacoes": [
+            "AWS Certified Data Analytics"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Fluente"
+            }
+        ],
+        "areaInteresses": [
+            "Educação",
+            "Sustentabilidade"
+        ]
+    },
+    {
+        "id": 52,
+        "nome": "Sabrina Melo",
+        "foto": "./images/foto2.jpg",
+        "cargo": "DevOps Engineer",
+        "resumo": "Profissional experiente em soluções modernas e tecnologia.",
+        "localizacao": "Belo Horizonte/MG",
+        "area": "Design",
+        "habilidadesTecnicas": [
+            "JavaScript",
+            "Django",
+            "Docker",
+            "Node.js"
+        ],
+        "softSkills": [
+            "Comunicação",
+            "Criatividade",
+            "Colaboração"
+        ],
+        "experiencias": [
+            {
+                "empresa": "Empresa D",
+                "cargo": "Cientista de Dados",
+                "inicio": "2021-01",
+                "fim": "2023-12",
+                "descricao": "Responsável por desenvolver soluções e integrar sistemas."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Bacharelado em Ciência da Computação",
+                "instituicao": "FIAP",
+                "ano": 2022
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Plataforma X",
+                "link": "https://github.com/example",
+                "descricao": "Projeto desenvolvido para estudos e testes."
+            }
+        ],
+        "certificacoes": [
+            "AWS Certified Data Analytics"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Intermediário"
+            }
+        ],
+        "areaInteresses": [
+            "Educação",
+            "Games"
+        ]
+    },
+    {
+        "id": 53,
+        "nome": "Rafael Campos",
+        "foto": "./images/foto3.jpg",
+        "cargo": "Analista de Sistemas",
+        "resumo": "Profissional experiente em soluções modernas e tecnologia.",
+        "localizacao": "Curitiba/PR",
+        "area": "Dados",
+        "habilidadesTecnicas": [
+            "AWS",
+            "MongoDB",
+            "TypeScript",
+            "Kubernetes"
+        ],
+        "softSkills": [
+            "Empatia",
+            "Comunicação",
+            "Resiliência"
+        ],
+        "experiencias": [
+            {
+                "empresa": "Empresa D",
+                "cargo": "Analista de Sistemas",
+                "inicio": "2021-01",
+                "fim": "2023-12",
+                "descricao": "Responsável por desenvolver soluções e integrar sistemas."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Bacharelado em Ciência da Computação",
+                "instituicao": "FIAP",
+                "ano": 2018
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Plataforma X",
+                "link": "https://github.com/example",
+                "descricao": "Projeto desenvolvido para estudos e testes."
+            }
+        ],
+        "certificacoes": [
+            "AWS Certified Data Analytics"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Avançado"
+            }
+        ],
+        "areaInteresses": [
+            "Educação",
+            "Inovação"
+        ]
+    },
+    {
+        "id": 54,
+        "nome": "Igor Fernandes",
+        "foto": "./images/foto4.jpg",
+        "cargo": "DevOps Engineer",
+        "resumo": "Profissional experiente em soluções modernas e tecnologia.",
+        "localizacao": "Rio de Janeiro/RJ",
+        "area": "Tecnologia",
+        "habilidadesTecnicas": [
+            "MongoDB",
+            "TypeScript",
+            "Node.js",
+            "SQL"
+        ],
+        "softSkills": [
+            "Resiliência",
+            "Adaptabilidade",
+            "Colaboração"
+        ],
+        "experiencias": [
+            {
+                "empresa": "Empresa D",
+                "cargo": "Analista de Sistemas",
+                "inicio": "2021-01",
+                "fim": "2023-12",
+                "descricao": "Responsável por desenvolver soluções e integrar sistemas."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Bacharelado em Ciência da Computação",
+                "instituicao": "FIAP",
+                "ano": 2019
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Plataforma X",
+                "link": "https://github.com/example",
+                "descricao": "Projeto desenvolvido para estudos e testes."
+            }
+        ],
+        "certificacoes": [
+            "AWS Certified Data Analytics"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Intermediário"
+            }
+        ],
+        "areaInteresses": [
+            "Inovação",
+            "Games"
+        ]
+    },
+    {
+        "id": 55,
+        "nome": "Vitória Assis",
+        "foto": "./images/foto5.jpg",
+        "cargo": "Desenvolvedor Backend",
+        "resumo": "Profissional experiente em soluções modernas e tecnologia.",
+        "localizacao": "Fortaleza/CE",
+        "area": "Tecnologia",
+        "habilidadesTecnicas": [
+            "React",
+            "Kubernetes",
+            "Figma",
+            "Django"
+        ],
+        "softSkills": [
+            "Liderança",
+            "Colaboração",
+            "Empatia"
+        ],
+        "experiencias": [
+            {
+                "empresa": "Empresa A",
+                "cargo": "Analista de Sistemas",
+                "inicio": "2021-01",
+                "fim": "2023-12",
+                "descricao": "Responsável por desenvolver soluções e integrar sistemas."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Bacharelado em Ciência da Computação",
+                "instituicao": "FIAP",
+                "ano": 2020
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Plataforma X",
+                "link": "https://github.com/example",
+                "descricao": "Projeto desenvolvido para estudos e testes."
+            }
+        ],
+        "certificacoes": [
+            "AWS Certified Data Analytics"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Fluente"
+            }
+        ],
+        "areaInteresses": [
+            "Inovação",
+            "Educação"
+        ]
+    },
+    {
+        "id": 56,
+        "nome": "Carlos Eduardo",
+        "foto": "./images/foto6.jpg",
+        "cargo": "QA Tester",
+        "resumo": "Profissional experiente em soluções modernas e tecnologia.",
+        "localizacao": "Belo Horizonte/MG",
+        "area": "DevOps",
+        "habilidadesTecnicas": [
+            "AWS",
+            "React",
+            "Node.js",
+            "Django"
+        ],
+        "softSkills": [
+            "Colaboração",
+            "Empatia",
+            "Adaptabilidade"
+        ],
+        "experiencias": [
+            {
+                "empresa": "Empresa A",
+                "cargo": "Analista de Sistemas",
+                "inicio": "2021-01",
+                "fim": "2023-12",
+                "descricao": "Responsável por desenvolver soluções e integrar sistemas."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Bacharelado em Ciência da Computação",
+                "instituicao": "FIAP",
+                "ano": 2016
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Plataforma X",
+                "link": "https://github.com/example",
+                "descricao": "Projeto desenvolvido para estudos e testes."
+            }
+        ],
+        "certificacoes": [
+            "AWS Certified Data Analytics"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Avançado"
+            }
+        ],
+        "areaInteresses": [
+            "Educação",
+            "Open Source"
+        ]
+    },
+    {
+        "id": 57,
+        "nome": "Juliana Prado",
+        "foto": "./images/foto7.jpg",
+        "cargo": "Product Designer",
+        "resumo": "Profissional experiente em soluções modernas e tecnologia.",
+        "localizacao": "Porto Alegre/RS",
+        "area": "Tecnologia",
+        "habilidadesTecnicas": [
+            "Kubernetes",
+            "JavaScript",
+            "Figma",
+            "React"
+        ],
+        "softSkills": [
+            "Colaboração",
+            "Resiliência",
+            "Criatividade"
+        ],
+        "experiencias": [
+            {
+                "empresa": "Empresa C",
+                "cargo": "DevOps Engineer",
+                "inicio": "2021-01",
+                "fim": "2023-12",
+                "descricao": "Responsável por desenvolver soluções e integrar sistemas."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Bacharelado em Ciência da Computação",
+                "instituicao": "FIAP",
+                "ano": 2017
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Plataforma X",
+                "link": "https://github.com/example",
+                "descricao": "Projeto desenvolvido para estudos e testes."
+            }
+        ],
+        "certificacoes": [
+            "AWS Certified Data Analytics"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Intermediário"
+            }
+        ],
+        "areaInteresses": [
+            "Open Source",
+            "Sustentabilidade"
+        ]
+    },
+    {
+        "id": 58,
+        "nome": "Larissa Mendes",
+        "foto": "./images/foto8.jpg",
+        "cargo": "DevOps Engineer",
+        "resumo": "Profissional experiente em soluções modernas e tecnologia.",
+        "localizacao": "Rio de Janeiro/RJ",
+        "area": "Dados",
+        "habilidadesTecnicas": [
+            "AWS",
+            "Docker",
+            "JavaScript",
+            "Figma"
+        ],
+        "softSkills": [
+            "Criatividade",
+            "Resiliência",
+            "Comunicação"
+        ],
+        "experiencias": [
+            {
+                "empresa": "Empresa B",
+                "cargo": "Cientista de Dados",
+                "inicio": "2021-01",
+                "fim": "2023-12",
+                "descricao": "Responsável por desenvolver soluções e integrar sistemas."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Bacharelado em Ciência da Computação",
+                "instituicao": "FIAP",
+                "ano": 2015
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Plataforma X",
+                "link": "https://github.com/example",
+                "descricao": "Projeto desenvolvido para estudos e testes."
+            }
+        ],
+        "certificacoes": [
+            "AWS Certified Data Analytics"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Avançado"
+            }
+        ],
+        "areaInteresses": [
+            "Games",
+            "Sustentabilidade"
+        ]
+    },
+    {
+        "id": 59,
+        "nome": "Juliana Prado",
+        "foto": "./images/foto9.jpg",
+        "cargo": "Product Designer",
+        "resumo": "Profissional experiente em soluções modernas e tecnologia.",
+        "localizacao": "São Paulo/SP",
+        "area": "Design",
+        "habilidadesTecnicas": [
+            "MongoDB",
+            "Docker",
+            "React",
+            "Python"
+        ],
+        "softSkills": [
+            "Criatividade",
+            "Resiliência",
+            "Colaboração"
+        ],
+        "experiencias": [
+            {
+                "empresa": "Empresa A",
+                "cargo": "Desenvolvedor Backend",
+                "inicio": "2021-01",
+                "fim": "2023-12",
+                "descricao": "Responsável por desenvolver soluções e integrar sistemas."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Bacharelado em Ciência da Computação",
+                "instituicao": "FIAP",
+                "ano": 2017
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Plataforma X",
+                "link": "https://github.com/example",
+                "descricao": "Projeto desenvolvido para estudos e testes."
+            }
+        ],
+        "certificacoes": [
+            "AWS Certified Data Analytics"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Fluente"
+            }
+        ],
+        "areaInteresses": [
+            "Educação",
+            "Inovação"
+        ]
+    },
+    {
+        "id": 60,
+        "nome": "Sabrina Melo",
+        "foto": "./images/foto10.jpg",
+        "cargo": "Engenheiro de Software",
+        "resumo": "Profissional experiente em soluções modernas e tecnologia.",
+        "localizacao": "Curitiba/PR",
+        "area": "DevOps",
+        "habilidadesTecnicas": [
+            "Node.js",
+            "Django",
+            "React",
+            "Docker"
+        ],
+        "softSkills": [
+            "Colaboração",
+            "Resiliência",
+            "Liderança"
+        ],
+        "experiencias": [
+            {
+                "empresa": "Empresa D",
+                "cargo": "Product Designer",
+                "inicio": "2021-01",
+                "fim": "2023-12",
+                "descricao": "Responsável por desenvolver soluções e integrar sistemas."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Bacharelado em Ciência da Computação",
+                "instituicao": "FIAP",
+                "ano": 2017
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Plataforma X",
+                "link": "https://github.com/example",
+                "descricao": "Projeto desenvolvido para estudos e testes."
+            }
+        ],
+        "certificacoes": [
+            "AWS Certified Data Analytics"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Intermediário"
+            }
+        ],
+        "areaInteresses": [
+            "Games",
+            "Open Source"
+        ]
+    }
+]
