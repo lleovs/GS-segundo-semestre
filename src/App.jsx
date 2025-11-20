@@ -1,74 +1,39 @@
-import { useEffect, useState } from 'react';
-import ProfessionalCard from './components/ProfessionalCard';
-import ProfessionalModal from './components/ProfessionalModal';
-import SearchFilters from './components/SearchFilters';
+// src/App.jsx
+import { useState } from "react";
+import Navbar from "./components/Navbar";
+import ProfessionalCard from "./components/ProfessionalCard";
+import ProfessionalModal from "./components/ProfessionalModal";
+import SearchFilters from "./components/SearchFilters";
+import profiles from "./data/profiles.json";
+
 
 export default function App() {
-  const [profiles, setProfiles] = useState([]);
-  const [filtered, setFiltered] = useState([]);
-  const [selected, setSelected] = useState(null);
-  const [search, setSearch] = useState('');
-  const [filters, setFilters] = useState({ area: '', cidade: '', tecnologia: '' });
-  const [dark, setDark] = useState(() => localStorage.getItem('dark') === 'true');
+const [selected, setSelected] = useState(null);
+const [search, setSearch] = useState("");
+const [filters, setFilters] = useState({ area: "", cidade: "", tecnologia: "" });
 
-  useEffect(() => {
-    document.documentElement.classList.toggle('dark', dark);
-    localStorage.setItem('dark', dark);
-  }, [dark]);
 
-  useEffect(() => {
-    // busca o JSON local em public/data/profiles.json
-    fetch('/data/profiles.json')
-      .then(r => r.json())
-      .then(data => {
-        setProfiles(data);
-        setFiltered(data);
-      })
-      .catch(err => {
-        console.error('Erro carregando profiles.json', err);
-      });
-  }, []);
+const filtered = profiles.filter((p) => {
+const s = p.nome.toLowerCase().includes(search.toLowerCase());
+const a = filters.area ? p.area === filters.area : true;
+const c = filters.cidade ? p.localizacao.includes(filters.cidade) : true;
+const t = filters.tecnologia ? p.habilidadesTecnicas.includes(filters.tecnologia) : true;
+return s && a && c && t;
+});
 
-  useEffect(() => {
-    const q = search.toLowerCase();
-    const res = profiles.filter(p => {
-      const matchSearch = !q || (
-        p.nome.toLowerCase().includes(q) ||
-        p.cargo.toLowerCase().includes(q) ||
-        p.habilidadesTecnicas.join(' ').toLowerCase().includes(q)
-      );
-      const matchArea = !filters.area || p.area === filters.area;
-      const matchCidade = !filters.cidade || p.localizacao === filters.cidade;
-      const matchTech = !filters.tecnologia || p.habilidadesTecnicas.includes(filters.tecnologia);
-      return matchSearch && matchArea && matchCidade && matchTech;
-    });
-    setFiltered(res);
-  }, [search, filters, profiles]);
 
-  return (
-    <div className="min-h-screen bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100 p-6">
-      <header className="max-w-6xl mx-auto flex items-center justify-between mb-6">
-        <h1 className="text-2xl font-bold">Diretório de Profissionais</h1>
-        <div className="flex items-center gap-3">
-          <button onClick={() => setDark(d => !d)} className="px-3 py-2 border rounded">
-            {dark ? 'Light' : 'Dark'}
-          </button>
-        </div>
-      </header>
-
-      <main className="max-w-6xl mx-auto space-y-6">
-        <SearchFilters profiles={profiles} search={search} setSearch={setSearch} filters={filters} setFilters={setFilters} />
-
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-          {filtered.map(p => (
-            <ProfessionalCard key={p.id} profile={p} onOpen={setSelected} />
-          ))}
-        </div>
-
-        {filtered.length === 0 && <div className="text-center text-gray-500">Nenhum profissional encontrado.</div>}
-      </main>
-
-      {selected && <ProfessionalModal profile={selected} onClose={() => setSelected(null)} />}
-    </div>
-  );
+return (
+<div className="min-h-screen bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100">
+<Navbar />
+<main className="max-w-6xl mx-auto p-6">
+<SearchFilters search={search} setSearch={setSearch} filters={filters} setFilters={setFilters} />
+<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
+{filtered.map((p) => (
+<ProfessionalCard key={p.id} profile={p} onClick={() => setSelected(p)} />
+))}
+</div>
+</main>
+{selected && <ProfessionalModal profile={selected} onClose={() => setSelected(null)} />}
+</div>
+);
 }
