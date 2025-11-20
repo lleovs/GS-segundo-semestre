@@ -1,109 +1,159 @@
-import { useState } from 'react';
 
-export default function ProfessionalModal({ profile, onClose }) {
-  const [msg, setMsg] = useState('');
-  if (!profile) return null;
-
-  const handleRecommend = () => {
-    alert(`Você recomendou ${profile.nome}! ✅`);
-  };
-
-  const handleSendMessage = () => {
-    if (!msg.trim()) {
-      alert('Escreva uma mensagem antes de enviar.');
-      return;
-    }
-    // simula envio
-    alert(`Mensagem enviada para ${profile.nome}: "${msg}"`);
-    setMsg('');
-  };
+export default function ProfessionalModal({ professional, onClose }) {
+  if (!professional) return null;
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
-      <div className="absolute inset-0 bg-black/50" onClick={onClose} />
-      <div className="relative max-w-4xl w-full bg-white dark:bg-gray-900 rounded-xl shadow-xl overflow-auto max-h-[90vh]">
-        <div className="flex items-start gap-4 p-6 border-b dark:border-gray-800">
-          <img src={profile.foto} alt={profile.nome} className="w-24 h-24 rounded-full object-cover" />
-          <div className="flex-1">
-            <h2 className="text-2xl font-bold">{profile.nome}</h2>
-            <p className="text-sm text-gray-500 dark:text-gray-300">{profile.cargo} • {profile.localizacao}</p>
-            <p className="mt-2 text-gray-700 dark:text-gray-300">{profile.resumo}</p>
-            <div className="mt-3 flex flex-wrap gap-2">
-              {profile.habilidadesTecnicas.map((t,i) => <span key={i} className="text-xs px-2 py-1 bg-gray-100 dark:bg-gray-700 rounded-full">{t}</span>)}
-            </div>
-          </div>
+    <div className="fixed inset-0 bg-black/60 flex items-center justify-center z-50 px-4">
+      <div className="bg-white dark:bg-gray-800 rounded-xl max-w-3xl w-full p-6 shadow-xl overflow-y-auto max-h-[90vh]">
+        
+        {/* HEADER */}
+        <div className="flex justify-between items-center mb-4">
+          <h2 className="text-2xl font-bold text-gray-800 dark:text-gray-100">
+            {professional.nome}
+          </h2>
+          <button
+            onClick={onClose}
+            className="text-gray-600 dark:text-gray-300 hover:text-red-500 text-xl"
+          >
+            ✕
+          </button>
+        </div>
 
-          <div className="ml-auto flex flex-col gap-2">
-            <button className="px-3 py-2 bg-green-600 text-white rounded" onClick={handleRecommend}>Recomendar profissional</button>
-            <button className="px-3 py-2 border rounded" onClick={() => { document.getElementById('message-input')?.focus(); }}>Enviar mensagem</button>
-            <button className="px-3 py-2 text-sm text-gray-500" onClick={onClose}>Fechar</button>
+        {/* FOTO + RESUMO */}
+        <div className="flex items-center gap-4 mb-6">
+          <img
+            src={professional.foto}
+            alt={professional.nome}
+            className="w-28 h-28 rounded-full object-cover border"
+          />
+          <div>
+            <p className="text-lg font-semibold dark:text-white">{professional.cargo}</p>
+            <p className="text-gray-600 dark:text-gray-300">{professional.resumo}</p>
+            <p className="text-sm text-gray-500 dark:text-gray-400">
+              {professional.localizacao}
+            </p>
           </div>
         </div>
 
-        <div className="p-6 grid grid-cols-1 md:grid-cols-2 gap-6">
+        {/* SEÇÕES */}
+        <div className="space-y-6">
+
+          {/* FORMAÇÃO */}
           <section>
-            <h3 className="font-semibold mb-2">Formação</h3>
-            <ul className="space-y-2 text-sm">
-              {profile.formacao.map((f,idx) => (
-                <li key={idx}>
-                  <div className="font-medium">{f.curso}</div>
-                  <div className="text-gray-500 dark:text-gray-400 text-xs">{f.instituicao} • {f.ano}</div>
+            <h3 className="text-xl font-semibold mb-2 dark:text-white">Formação</h3>
+            <ul className="list-disc ml-6 text-gray-700 dark:text-gray-300">
+              {professional.formacao.map((f, i) => (
+                <li key={i}>
+                  {f.curso} — {f.instituicao} ({f.ano})
                 </li>
               ))}
             </ul>
           </section>
 
+          {/* EXPERIÊNCIAS */}
           <section>
-            <h3 className="font-semibold mb-2">Experiências</h3>
-            <ul className="space-y-2 text-sm">
-              {profile.experiencias.map((e,idx) => (
-                <li key={idx}>
-                  <div className="font-medium">{e.cargo} — {e.empresa}</div>
-                  <div className="text-gray-500 dark:text-gray-400 text-xs">{e.inicio} → {e.fim}</div>
-                  <div className="text-gray-600 dark:text-gray-300 text-sm">{e.descricao}</div>
+            <h3 className="text-xl font-semibold mb-2 dark:text-white">Experiências</h3>
+            <ul className="space-y-3 text-gray-700 dark:text-gray-300">
+              {professional.experiencias.map((exp, i) => (
+                <li key={i} className="border-b pb-2 border-gray-300 dark:border-gray-600">
+                  <p className="font-semibold">{exp.empresa} — {exp.cargo}</p>
+                  <p className="text-sm text-gray-500">
+                    {exp.inicio} até {exp.fim || "Atualmente"}
+                  </p>
+                  <p>{exp.descricao}</p>
                 </li>
               ))}
             </ul>
           </section>
 
-          <section className="md:col-span-2">
-            <h3 className="font-semibold mb-2">Soft skills & Hobbies</h3>
+          {/* HABILIDADES */}
+          <section>
+            <h3 className="text-xl font-semibold mb-2 dark:text-white">
+              Habilidades Técnicas
+            </h3>
             <div className="flex flex-wrap gap-2">
-              {profile.softSkills.map((s, i) => <span key={i} className="text-sm px-2 py-1 bg-gray-100 dark:bg-gray-700 rounded">{s}</span>)}
+              {professional.habilidadesTecnicas.map((skill, i) => (
+                <span
+                  key={i}
+                  className="px-3 py-1 bg-blue-600 text-white rounded-full text-sm"
+                >
+                  {skill}
+                </span>
+              ))}
             </div>
           </section>
 
+          {/* SOFT SKILLS */}
           <section>
-            <h3 className="font-semibold mb-2">Projetos</h3>
-            <ul className="space-y-2 text-sm">
-              {profile.projetos.length ? profile.projetos.map((p, idx) => (
-                <li key={idx}>
-                  <a href={p.link} target="_blank" rel="noreferrer" className="font-medium text-indigo-600 dark:text-indigo-400">{p.titulo}</a>
-                  <div className="text-gray-500 dark:text-gray-400 text-xs">{p.descricao}</div>
+            <h3 className="text-xl font-semibold mb-2 dark:text-white">Soft Skills</h3>
+            <div className="flex flex-wrap gap-2">
+              {professional.softSkills.map((skill, i) => (
+                <span
+                  key={i}
+                  className="px-3 py-1 bg-green-600 text-white rounded-full text-sm"
+                >
+                  {skill}
+                </span>
+              ))}
+            </div>
+          </section>
+
+          {/* PROJETOS */}
+          <section>
+            <h3 className="text-xl font-semibold mb-2 dark:text-white">Projetos</h3>
+            <ul className="space-y-2 text-gray-700 dark:text-gray-300">
+              {professional.projetos.map((p, i) => (
+                <li key={i}>
+                  <a
+                    href={p.link}
+                    target="_blank"
+                    className="text-blue-500 underline"
+                  >
+                    {p.titulo}
+                  </a>
+                  <p className="text-sm">{p.descricao}</p>
                 </li>
-              )) : <div className="text-sm text-gray-500">Nenhum projeto listado.</div>}
+              ))}
             </ul>
           </section>
 
+          {/* CERTIFICAÇÕES */}
           <section>
-            <h3 className="font-semibold mb-2">Certificações & Idiomas</h3>
-            <div className="text-sm">
-              <div className="mb-2">
-                {profile.certificacoes.length ? profile.certificacoes.map((c,i)=>(<div key={i} className="text-gray-700 dark:text-gray-300">{c}</div>)) : <div className="text-gray-500">Sem certificações</div>}
-              </div>
-              <div className="mt-1">
-                {profile.idiomas.map((l,i) => (<div key={i} className="text-gray-700 dark:text-gray-300">{l.idioma} — {l.nivel}</div>))}
-              </div>
-            </div>
+            <h3 className="text-xl font-semibold mb-2 dark:text-white">Certificações</h3>
+            <ul className="list-disc ml-6 text-gray-700 dark:text-gray-300">
+              {professional.certificacoes.map((c, i) => (
+                <li key={i}>{c}</li>
+              ))}
+            </ul>
           </section>
 
-          <div className="md:col-span-2">
-            <h3 className="font-semibold mb-2">Enviar mensagem</h3>
-            <div className="flex gap-2">
-              <input id="message-input" value={msg} onChange={(e)=>setMsg(e.target.value)} className="flex-1 border px-3 py-2 rounded dark:bg-gray-800 dark:border-gray-700" placeholder="Escreva uma mensagem..." />
-              <button onClick={handleSendMessage} className="px-4 py-2 bg-blue-600 text-white rounded">Enviar</button>
-            </div>
-          </div>
+          {/* IDIOMAS */}
+          <section>
+            <h3 className="text-xl font-semibold mb-2 dark:text-white">Idiomas</h3>
+            <ul className="list-disc ml-6 text-gray-700 dark:text-gray-300">
+              {professional.idiomas.map((l, i) => (
+                <li key={i}>{l.idioma} — {l.nivel}</li>
+              ))}
+            </ul>
+          </section>
+
+        </div>
+
+        {/* FOOTER – BOTÕES */}
+        <div className="flex justify-end gap-4 mt-6">
+          <button
+            className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700"
+            onClick={() => alert(`Profissional recomendado: ${professional.nome}`)}
+          >
+            Recomendar Profissional
+          </button>
+
+          <button
+            className="px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700"
+            onClick={() => alert(`Mensagem enviada para ${professional.nome}`)}
+          >
+            Enviar Mensagem
+          </button>
         </div>
       </div>
     </div>
