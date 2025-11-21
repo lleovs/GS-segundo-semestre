@@ -1,27 +1,25 @@
 export default function Navbar({ isDark, setIsDark }) {
     return (
-      <nav className="w-full bg-white dark:bg-gray-800 px-6 py-4 shadow flex justify-between items-center transition-colors">
-        
-        {/* Logo */}
-        <h1 className="text-xl font-bold text-gray-900 dark:text-white">
-          SocialJobs
-        </h1>
+      <nav className="w-full py-4 px-6 bg-gray-100 dark:bg-gray-800 shadow">
+        <div className="max-w-6xl mx-auto flex justify-between items-center">
   
-        {/* Links */}
-        <ul className="flex gap-6 text-gray-700 dark:text-gray-200 font-medium">
-          <li className="cursor-pointer hover:underline">Home</li>
-          <li className="cursor-pointer hover:underline">Perfil</li>
-          <li className="cursor-pointer hover:underline">Vagas</li>
-        </ul>
+          <h1 className="text-xl font-bold text-gray-900 dark:text-gray-100">SocialJobs</h1>
   
-        {/* Botão de tema */}
-        <button
-          onClick={() => setIsDark(!isDark)}
-          className="px-4 py-2 rounded-lg bg-gray-200 dark:bg-gray-700
-                     text-gray-900 dark:text-gray-100 transition"
-        >
-          {isDark ? "☀️ Modo Claro" : "🌙 Modo Escuro"}
-        </button>
+          <div className="flex items-center gap-6">
+            <a className="text-gray-800 dark:text-gray-200">Home</a>
+            <a className="text-gray-800 dark:text-gray-200">Perfil</a>
+            <a className="text-gray-800 dark:text-gray-200">Vagas</a>
+  
+            {/* TOGGLE */}
+            <button
+              onClick={() => setIsDark(!isDark)}
+              className="px-3 py-1 rounded-lg bg-gray-300 dark:bg-gray-700 text-gray-900 dark:text-gray-200"
+            >
+              {isDark ? "Light" : "Dark"}
+            </button>
+          </div>
+        </div>
       </nav>
     );
   }
+  
