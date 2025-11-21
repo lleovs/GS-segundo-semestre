@@ -41,7 +41,7 @@ export default function App() {
   return (
     <div className="min-h-screen bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100">
 
-      <Navbar isDark={isDark} setIsDark={setIsDark} />
+      <NavBar isDark={isDark} setIsDark={setIsDark} />
 
       <main className="max-w-6xl mx-auto p-6">
         <SearchFilters
