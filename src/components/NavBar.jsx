@@ -1,4 +1,4 @@
-export default function Navbar({ isDark, setIsDark }) {
+export default function NavBar({ isDark, setIsDark }) {
     return (
       <nav className="w-full py-4 px-6 bg-gray-100 dark:bg-gray-800 shadow">
         <div className="max-w-6xl mx-auto flex justify-between items-center">
