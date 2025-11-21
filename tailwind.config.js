@@ -1,3 +1,8 @@
-export default {
-    darkTheme : "000000"
-}
+module.exports = {
+  darkMode: "class",
+  content: ["./index.html", "./src/**/*.{js,jsx}"],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+};

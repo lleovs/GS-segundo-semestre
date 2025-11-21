@@ -1,5 +1,4 @@
-// src/App.jsx
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import profiles from "../public/data/profiles.json";
 import Navbar from "./components/Navbar";
 import ProfessionalCard from "./components/ProfessionalCard";
@@ -8,6 +7,9 @@ import SearchFilters from "./components/SearchFilters";
 
 
 export default function App() {
+    const [isDark, setIsDark] = useState(
+        localStorage.getItem("theme") === "dark"
+      );
 const [selected, setSelected] = useState(null);
 const [search, setSearch] = useState("");
 const [filters, setFilters] = useState({ area: "", cidade: "", tecnologia: "" });
@@ -20,11 +22,19 @@ const c = filters.cidade ? p.localizacao.includes(filters.cidade) : true;
 const t = filters.tecnologia ? p.habilidadesTecnicas.includes(filters.tecnologia) : true;
 return s && a && c && t;
 });
-
+useEffect(() => {
+    if (isDark) {
+      document.documentElement.classList.add("dark");
+      localStorage.setItem("theme", "dark");
+    } else {
+      document.documentElement.classList.remove("dark");
+      localStorage.setItem("theme", "light");
+    }
+  }, [isDark]);
 
 return (
 <div className="min-h-screen bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100">
-<Navbar />
+<Navbar isDark={isDark} setIsDark={setIsDark} />
 <main className="max-w-6xl mx-auto p-6">
 <SearchFilters search={search} setSearch={setSearch} filters={filters} setFilters={setFilters} />
 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
@@ -33,7 +43,7 @@ return (
 ))}
 </div>
 </main>
-{selected && <ProfessionalModal profile={selected} onClose={() => setSelected(null)} />}
+{selected && <ProfessionalModal professional={selected} onClose={() => setSelected(null)} />}
 </div>
 );
 }
