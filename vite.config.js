@@ -11,4 +11,5 @@ export default defineConfig({
     }),
     tailwindcss(),
   ],
+  base: "/GS-segundo-semestre/"
 })
