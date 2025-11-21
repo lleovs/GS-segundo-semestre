@@ -43,6 +43,12 @@ O projeto ficará disponível em:
 
 ---
 
+## 🔗 Link do deploy
+
+[https://gs-segundo-semestre-15zpr048g-leonardofrpsouza-2197s-projects.vercel.app/](https://gs-segundo-semestre-15zpr048g-leonardofrpsouza-2197s-projects.vercel.app/)
+
+---
+
 ## 👥 Integrantes do Grupo
 
 * **Leonardo Vinícius** – RM 562299
