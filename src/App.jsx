@@ -1,6 +1,7 @@
 import { useState } from "react";
 import profiles from "../public/data/profiles.json";
 
+import NavBar from "./components/NavBar";
 import ProfessionalCard from "./components/ProfessionalCard";
 import ProfessionalModal from "./components/ProfessionalModal";
 import SearchFilters from "./components/SearchFilters";
